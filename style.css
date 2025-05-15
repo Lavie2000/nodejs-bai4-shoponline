@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+#hero {
+    background-image: url('luxury-car.jpg'); /* Replace with your image */
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+}
+
+#hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#hero p {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+#featured-cars {
+    padding: 2rem;
+    text-align: center;
+}
+
+.car {
+    display: inline-block;
+    width: 300px;
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.car img {
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.car h3 {
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.car p {
+    margin-bottom: 1rem;
+}
+
+#financing {
+    background-color: #f4f4f4;
+    padding: 2rem;
+    text-align: center;
+}
+
+#brand-story {
+    padding: 2rem;
+    text-align: center;
+}
+
+#testimonials {
+    padding: 2rem;
+    text-align: center;
+}
+
+#call-to-action {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
