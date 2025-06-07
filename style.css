@@ -11,6 +11,41 @@ header {
     text-align: center;
 }
 
+/* Product Detail Page Styles */
+#product-details-section {
+    padding: 2rem;
+    text-align: center;
+    max-width: 800px;
+    margin: auto;
+}
+
+#product-details-section img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+#product-details-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+#product-details-section .description {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+#product-details-section .price {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 1.5rem;
+}
+
 #hero {
     background-image: url('luxury-car.jpg'); /* Replace with your image */
     background-size: cover;
